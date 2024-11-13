@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def header():
-    st.set_page_config(layout="wide")
+    st.set_page_config(page_title="CRUD Application", layout="wide")
 
     ## Title & details
     st.title("Assignment 3")
